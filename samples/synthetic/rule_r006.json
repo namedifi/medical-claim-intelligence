@@ -1,0 +1,8 @@
+{
+  "document_type": "pharmacy_invoice",
+  "fields": {
+    "buyer_info": {"value": "合成购买方", "confidence": 0.99},
+    "seller_info": {"value": "合成销售方", "confidence": 0.99},
+    "tax_inclusive_total": {"value": "28.60", "confidence": 0.99}
+  }
+}

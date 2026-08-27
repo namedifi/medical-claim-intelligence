@@ -1,0 +1,1 @@
+"""Sequential claim amount rules."""

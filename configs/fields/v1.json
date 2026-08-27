@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "fields": [
+    {"key": "policy_scope_amount", "type": "money", "aliases": ["符合政策范围金额", "本次符合基本医疗"]},
+    {"key": "pooled_fund_payment", "type": "money", "aliases": ["医保统筹基金支付", "统筹基金支付"]},
+    {"key": "personal_self_pay", "type": "money", "aliases": ["个人自付"]},
+    {"key": "personal_cash_payment", "type": "money", "aliases": ["个人现金支付", "现金支付"]},
+    {"key": "fund_scope_expense", "type": "money", "aliases": ["统筹基金支付范围内费用"]},
+    {"key": "fund_payment_total", "type": "money", "aliases": ["基金支付合计"]},
+    {"key": "self_pay_one", "type": "money", "aliases": ["自付一"]},
+    {"key": "self_pay_two", "type": "money", "aliases": ["自付二"]},
+    {"key": "personal_self_expense", "type": "money", "aliases": ["个人自费", "自费"]},
+    {"key": "total_amount", "type": "money", "aliases": ["金额合计（小写）", "金额合计", "医疗费总额"]},
+    {"key": "class_b_pre_self_pay", "type": "money", "aliases": ["乙类先行自付费用", "乙类先自付", "乙类首自付"]},
+    {"key": "over_limit_self_pay", "type": "money", "aliases": ["超限价自付费用", "超限价自费"]},
+    {"key": "buyer_info", "type": "text", "aliases": ["购买方信息", "购买方"]},
+    {"key": "seller_info", "type": "text", "aliases": ["销售方信息", "销售方"]},
+    {"key": "tax_inclusive_total", "type": "money", "aliases": ["价税合计金额", "价税合计"]}
+  ]
+}

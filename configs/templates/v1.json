@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "templates": [
+    {
+      "id": "beijing_outpatient_v1",
+      "document_type": "medical_receipt",
+      "strong": ["北京市医疗收费票据", "中央医疗"],
+      "keywords": ["门诊号", "就诊日期", "个人现金支付"],
+      "exclude": ["住院科别"]
+    },
+    {
+      "id": "hebei_general_v1",
+      "document_type": "medical_receipt",
+      "strong": ["河北省医疗收费票据"],
+      "keywords": ["业务流水号", "住院号", "医保编号"],
+      "exclude": ["河南省", "社保卡号"]
+    },
+    {
+      "id": "henan_v1",
+      "document_type": "medical_receipt",
+      "strong": ["河南省医疗收费票据"],
+      "keywords": ["社保卡号", "住院科室", "起付标准"],
+      "exclude": ["河北省"]
+    },
+    {
+      "id": "medical_settlement_v1",
+      "document_type": "medical_settlement",
+      "strong": ["医保结算单"],
+      "keywords": ["统筹基金支付范围内费用", "基金支付合计"],
+      "exclude": []
+    },
+    {
+      "id": "pharmacy_invoice_v1",
+      "document_type": "pharmacy_invoice",
+      "strong": ["购买方信息", "销售方信息"],
+      "keywords": ["价税合计"],
+      "exclude": []
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "case_id": "synthetic-medical-receipt-001",
+  "version": 1,
+  "status": "PENDING_REVIEW",
+  "document_type": "medical_receipt",
+  "document": {
+    "metadata": {
+      "label": "Synthetic medical receipt",
+      "source": "synthetic-demo",
+      "page_count": 1
+    }
+  },
+  "fields": {
+    "policy_scope_amount": {
+      "value": "100.00",
+      "confidence": 0.99,
+      "raw_name": "Synthetic policy scope amount",
+      "evidence": [{
+        "page_index": 0,
+        "ocr_text": "Synthetic policy scope amount",
+        "bbox": [[0.1, 0.1], [0.2, 0.1], [0.2, 0.2], [0.1, 0.2]],
+        "source_image": "synthetic-demo"
+      }]
+    },
+    "pooled_fund_payment": {
+      "value": "70.00",
+      "confidence": 0.99,
+      "raw_name": "Synthetic pooled fund payment",
+      "evidence": [{
+        "page_index": 0,
+        "ocr_text": "Synthetic pooled fund payment",
+        "bbox": [[0.3, 0.1], [0.4, 0.1], [0.4, 0.2], [0.3, 0.2]],
+        "source_image": "synthetic-demo"
+      }]
+    },
+    "personal_self_pay": {
+      "value": "20.00",
+      "confidence": 0.99,
+      "raw_name": "Synthetic personal self payment",
+      "evidence": [{
+        "page_index": 0,
+        "ocr_text": "Synthetic personal self payment",
+        "bbox": [[0.5, 0.1], [0.6, 0.1], [0.6, 0.2], [0.5, 0.2]],
+        "source_image": "synthetic-demo"
+      }]
+    }
+  },
+  "audit_events": []
+}
